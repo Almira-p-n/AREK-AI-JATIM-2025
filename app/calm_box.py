@@ -92,7 +92,9 @@ def journaling_prompt():
     clear()
     print("2. Siapa atau apa yang membuatmu merasa aman?\n")
     answers["aman"] = input("Jawabanmu: ")
-    print("\nRasa aman itu penting banget. Kamu layak merasakannya.")
+    print("\nMakasih ya udah cerita. Indah rasanya ketika kita punya sesuatu atau seseorang yang bisa bikin hati kita merasa aman." \
+        "Pegang perasaan itu baik-baik… karena rasa aman adalah tempat kita pulang waktu dunia terasa terlalu bising." \
+        "Apa pun bentuknya, kamu pantas punya ruang yang bikin kamu tenang, didengar, dan diterima apa adanya.")
     input("Tekan enter untuk lanjut...")
 
     # -------------------------------
@@ -101,7 +103,11 @@ def journaling_prompt():
     clear()
     print("3. Hal apa yang ingin kamu lepaskan dari pikiranmu?\n")
     answers["lepaskan"] = input("Jawabanmu: ")
-    print("\nTidak apa-apa melepas apa pun yang membebanimu.")
+    print("\nTerima kasih sudah mau ngebuka sedikit isi kepala kamu… itu bukan hal yang gampang." \
+        "Apa pun yang kamu coba lepaskan hari ini, aku tahu itu pasti punya rasa yang berat buat kamu." \
+        "Tapi kamu berani ngomongin itu — dan keberanian kecil kayak gini sering jadi awal dari hati yang lebih ringan." \
+        "Pelan-pelan aja… nggak harus kuat sempurna, cukup hadir sama perasaanmu." \
+        "Aku di sini, dan kamu nggak lagi ngadepin ini sendirian.")
     input("Tekan enter untuk lanjut...")
 
     # -------------------------------
@@ -110,7 +116,9 @@ def journaling_prompt():
     clear()
     print("4. Hal kecil apa yang berhasil kamu lakukan hari ini?\n")
     answers["kecil"] = input("Jawabanmu: ")
-    print("\nPencapaian kecil itu tetap pencapaian. Kamu hebat.")
+    print("\nItu keren banget, beneran. Kadang hal kecil justru yang paling berarti, karena dari situlah kita belajar bahwa kemajuan itu nggak selalu harus besar." \
+        "Kamu nyempetin diri buat ngelakuin itu dan itu tanda kamu tetap bergerak, meski pelan." \
+        "Banggain diri kamu sebentar… kamu layak ngerasain itu.")
     input("Tekan enter untuk lanjut...")
 
     # -------------------------------
