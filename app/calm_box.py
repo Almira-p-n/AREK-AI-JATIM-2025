@@ -92,8 +92,8 @@ def journaling_prompt():
     clear()
     print("2. Siapa atau apa yang membuatmu merasa aman?\n")
     answers["aman"] = input("Jawabanmu: ")
-    print("\nMakasih ya udah cerita. Indah rasanya ketika kita punya sesuatu atau seseorang yang bisa bikin hati kita merasa aman." \
-        "Pegang perasaan itu baik-baik… karena rasa aman adalah tempat kita pulang waktu dunia terasa terlalu bising." \
+    print("\nMakasih ya udah cerita. Indah rasanya ketika kita punya sesuatu atau seseorang yang bisa bikin hati kita merasa aman.\n"
+        "Pegang perasaan itu baik-baik… karena rasa aman adalah tempat kita pulang waktu dunia terasa terlalu bising.\n" \
         "Apa pun bentuknya, kamu pantas punya ruang yang bikin kamu tenang, didengar, dan diterima apa adanya.")
     input("Tekan enter untuk lanjut...")
 
@@ -103,10 +103,10 @@ def journaling_prompt():
     clear()
     print("3. Hal apa yang ingin kamu lepaskan dari pikiranmu?\n")
     answers["lepaskan"] = input("Jawabanmu: ")
-    print("\nTerima kasih sudah mau ngebuka sedikit isi kepala kamu… itu bukan hal yang gampang." \
-        "Apa pun yang kamu coba lepaskan hari ini, aku tahu itu pasti punya rasa yang berat buat kamu." \
-        "Tapi kamu berani ngomongin itu — dan keberanian kecil kayak gini sering jadi awal dari hati yang lebih ringan." \
-        "Pelan-pelan aja… nggak harus kuat sempurna, cukup hadir sama perasaanmu." \
+    print("\nTerima kasih sudah mau ngebuka sedikit isi kepala kamu… itu bukan hal yang gampang.\n" \
+        "Apa pun yang kamu coba lepaskan hari ini, aku tahu itu pasti punya rasa yang berat buat kamu.\n" \
+        "Tapi kamu berani ngomongin itu — dan keberanian kecil kayak gini sering jadi awal dari hati yang lebih ringan.\n" \
+        "Pelan-pelan aja… nggak harus kuat sempurna, cukup hadir sama perasaanmu.\n" \
         "Aku di sini, dan kamu nggak lagi ngadepin ini sendirian.")
     input("Tekan enter untuk lanjut...")
 
@@ -116,8 +116,8 @@ def journaling_prompt():
     clear()
     print("4. Hal kecil apa yang berhasil kamu lakukan hari ini?\n")
     answers["kecil"] = input("Jawabanmu: ")
-    print("\nItu keren banget, beneran. Kadang hal kecil justru yang paling berarti, karena dari situlah kita belajar bahwa kemajuan itu nggak selalu harus besar." \
-        "Kamu nyempetin diri buat ngelakuin itu dan itu tanda kamu tetap bergerak, meski pelan." \
+    print("\nItu keren banget, beneran. Kadang hal kecil justru yang paling berarti, karena dari situlah kita belajar bahwa kemajuan itu nggak selalu harus besar.\n" \
+        "Kamu nyempetin diri buat ngelakuin itu dan itu tanda kamu tetap bergerak, meski pelan.\n" \
         "Banggain diri kamu sebentar… kamu layak ngerasain itu.")
     input("Tekan enter untuk lanjut...")
 
